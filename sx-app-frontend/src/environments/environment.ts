@@ -2,8 +2,11 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import { AppConstant } from "@app/constant/AppConstant";
+
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: AppConstant.searchUrl
 };
 
 /*

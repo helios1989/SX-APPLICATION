@@ -9,6 +9,8 @@ import { AppSharedMaterialModule } from './shared/app-shared-material.module';
 import { MemberSearchComponent } from './features/member-search/member-search.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { StoreModule } from '@ngrx/store';
+import { memberReducer } from './store/members/members.reducer';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    AppSharedMaterialModule
+    AppSharedMaterialModule,
+    StoreModule.forRoot({member: memberReducer}),
   ],
   providers: [],
   bootstrap: [AppComponent]
