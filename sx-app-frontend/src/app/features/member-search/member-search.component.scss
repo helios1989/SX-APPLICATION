@@ -1,0 +1,22 @@
+:host {
+
+    .member-container {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        height: auto;
+        min-height: 5em;
+        .search-label {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .service-date , .search-using {
+            display: flex;
+            min-width: 45vw;
+        }
+    }
+    button {
+        margin: 5px;
+    }
+}
