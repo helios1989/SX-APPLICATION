@@ -1,0 +1,53 @@
+{
+    "extends": "tslint:latest",
+    "exclude": [
+      "typings"
+    ],
+    "rules": {
+      "curly": true,
+      "one-variable-per-declaration": [
+        true
+      ],
+      "no-any": false,
+      "no-consecutive-blank-lines": [
+        true
+      ],
+      "no-submodule-imports": false,
+      "no-require-imports": false,
+      "no-var-requires": false,
+      "no-implicit-dependencies": false,
+      "no-bitwise": false,
+      "member-access": [
+        true
+      ],
+      "indent": [
+        true,
+        "spaces"
+      ],
+      "object-literal-sort-keys": false,
+      "object-literal-shorthand": false,
+      "typedef": [
+        true,
+        "call-signature",
+        "parameter",
+        "property-declaration"
+      ],
+      "max-line-length": [
+        false
+      ],
+      "trailing-comma": [
+        false
+      ],
+      "only-arrow-functions": [
+        true
+      ],
+      "interface-name": [
+        false
+      ],
+      "semicolon": [
+        true,
+        "always"
+      ]
+    }
+  }
+  

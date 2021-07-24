@@ -1,0 +1,84 @@
+{
+    "members": [
+        {
+          "id": 1,
+          "firstName": "Winne",
+          "lastName": "Janc",
+          "memberCardNumber": "473128446",
+          "policyNumber": "1405677686",
+          "dateOfBirth": "26/07/1995"
+        },
+        {
+          "id": 2,
+          "firstName": "Ransom",
+          "lastName": "Aslie3",
+          "memberCardNumber": "8047727435",
+          "policyNumber": "1405677686",
+          "dateOfBirth": "04/09/2012"
+        },
+        {
+          "id": 3,
+          "firstName": "Estelle",
+          "lastName": "Schops",
+          "memberCardNumber": "9908842684",
+          "policyNumber": "1405677686",
+          "dateOfBirth": "05/10/1997"
+        },
+        {
+          "id": 4,
+          "firstName": "Jorry",
+          "lastName": "Lodin",
+          "memberCardNumber": "3622460377",
+          "policyNumber": "1405677686",
+          "dateOfBirth": "19/04/2016"
+        },
+        {
+          "id": 5,
+          "firstName": "Allys",
+          "lastName": "McAloren",
+          "memberCardNumber": "7434867337",
+          "policyNumber": "3412713163",
+          "dateOfBirth": "29/05/2021"
+        },
+        {
+          "id": 6,
+          "firstName": "Rik",
+          "lastName": "Mordacai",
+          "memberCardNumber": "5503992377",
+          "policyNumber": "1406622567",
+          "dateOfBirth": "15/02/2009"
+        },
+        {
+          "id": 7,
+          "firstName": "Artair",
+          "lastName": "Brookz",
+          "memberCardNumber": "8207363673",
+          "policyNumber": "1108841600",
+          "dateOfBirth": "14/09/2003"
+        },
+        {
+          "id": 8,
+          "firstName": "Goldie",
+          "lastName": "Priel",
+          "memberCardNumber": "2807656978",
+          "policyNumber": "1108841600",
+          "dateOfBirth": "10/04/2005"
+        },
+        {
+          "id": 9,
+          "firstName": "Chandra",
+          "lastName": "Johnstone",
+          "memberCardNumber": "5765227600",
+          "policyNumber": "1108841600",
+          "dateOfBirth": "12/01/2010"
+        },
+        {
+          "id": 10,
+          "firstName": "Appolonia",
+          "lastName": "Shegog",
+          "memberCardNumber": "6601157341",
+          "policyNumber": "1793425884",
+          "dateOfBirth": "22/04/2010"
+        }
+      ]
+  }
