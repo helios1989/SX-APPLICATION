@@ -5,7 +5,7 @@ services:
     hostname: sx-app
     container_name: sx-app
     build:
-        context: ./sx-app
+        context: ./sx-app-frontend
         dockerfile: Dockerfile
     ports:
         - "4200:80"
