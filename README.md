@@ -28,7 +28,6 @@ in terminal under sx-application directory
 - https://hub.docker.com/repository/docker/vergelbarit/sx-app-server
 - https://hub.docker.com/repository/docker/vergelbarit/sx-app-frontend
 
-
-terminal: docker-compose up
+- docker-compose up
 
 
