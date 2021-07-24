@@ -3,7 +3,7 @@
 
 steps to run localy
 ## PRE-REQUISITE
- - install first nodejs atleast 12+ above
+ - install nodejs atleast 12+ above
  - install angular
 
 ### FRONTEND
