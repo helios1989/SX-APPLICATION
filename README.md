@@ -5,7 +5,7 @@ cd sx-app-frontend
 npm install
 ng serve
 
-`BACKEND
+```BACKEND```
 cd sx-app-server
 npm install
 npm run start
