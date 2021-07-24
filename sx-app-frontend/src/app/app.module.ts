@@ -12,13 +12,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
 import { memberReducer } from './store/members/members.reducer';
 import { SearchResultsComponent } from '@features/search-results/search-results.component';
+import { MyAlertComponent } from './components/my-alert/my-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainLayoutComponent,
     MemberSearchComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    MyAlertComponent
   ],
   imports: [
     BrowserModule,

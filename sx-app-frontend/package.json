@@ -1,10 +1,12 @@
 {
   "name": "sx-app-frontend",
   "version": "0.0.0",
+  "author": "https://www.npmjs.com/~rayneverge2018",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "buildProd": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

@@ -1,0 +1,27 @@
+version: '3'
+services:
+
+  sx-app:
+    hostname: sx-app
+    container_name: sx-app
+    build:
+        context: ./sx-app
+        dockerfile: Dockerfile
+    ports:
+        - "4200:80"
+    image:
+        sx-app:latest
+
+  sx-app-server:
+    hostname: sx-app-server
+    container_name: sx-app-server
+    build:
+      context: ./sx-app-server
+      dockerfile: Dockerfile
+    environment:
+     - PORTS=3000
+    ports:
+      - "3000:3000"
+    image:
+      sx-app-server:latest
+
