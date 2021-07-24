@@ -11,11 +11,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
 import { memberReducer } from './store/members/members.reducer';
+import { SearchResultsComponent } from '@features/search-results/search-results.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     MainLayoutComponent,
-    MemberSearchComponent
+    MemberSearchComponent,
+    SearchResultsComponent
   ],
   imports: [
     BrowserModule,

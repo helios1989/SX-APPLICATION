@@ -1,0 +1,25 @@
+<div class="grid-card" *ngIf="(member$ | async)?.length;else noMember">
+    <mat-card class="card" *ngFor="let item of (member$ | async)">
+        <img mat-card-image class="card-container"  src="https://i.pinimg.com/474x/82/ab/35/82ab3533ee71daf256f23c1ccf20ad6f.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <div class="item">
+                <label class="label">First Name: </label>
+                <span class="value">{{item.firstName}}</span>
+            </div>
+            <div class="item">
+                <label class="label">Last Name: </label>
+                <span class="value">{{item.lastName}}</span>
+            </div>
+            <div class="item">
+                <label class="label">Date of  Birth: </label>
+                <span class="value">{{item.dataOfBirth}}</span>
+            </div>
+        </mat-card-content>
+      
+      </mat-card>
+      
+</div>
+
+<ng-template #noMember>
+    <div class="center-me no-member">No Member found</div>
+</ng-template>

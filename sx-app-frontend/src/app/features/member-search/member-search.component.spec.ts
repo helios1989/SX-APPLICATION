@@ -23,7 +23,6 @@ import { environment } from '@environments/environment';
 import { MemberSearchComponent } from './member-search.component';
 import { MyAlertComponent } from '~/app/components/my-alert/my-alert.component';
 
-
 let routerSpy = {navigate: jasmine.createSpy('navigate')};
 const failedFieldValidty = [
   { fieldName: 'serviceDate'},

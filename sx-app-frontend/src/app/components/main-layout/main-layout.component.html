@@ -4,11 +4,11 @@
         [mode]="(isHandset$ | async) ? 'over' : 'side'"
         [opened]="(isHandset$ | async) === false">
       <mat-toolbar >
-        <a mat-list-item  id="home">Home</a>
+        <a mat-list-item  id="home" (click)="navigateTo('')">Home</a>
       </mat-toolbar>
       <mat-nav-list>
         <a mat-list-item id="member-search" (click)="navigateTo('member-search')">Member Search</a>
-        <a mat-list-item id="search-results">Search Results</a>
+        <a mat-list-item id="search-results" (click)="navigateTo('search-results')">Search Results</a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>

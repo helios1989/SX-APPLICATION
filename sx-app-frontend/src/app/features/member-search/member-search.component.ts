@@ -80,7 +80,7 @@ export class MemberSearchComponent implements OnInit {
       }
       this.store.dispatch(storeMember({ props: d }));
       this.appService.activepage$.next('search results');
-      
+      this.router.navigate(['/search-results']);
     });
   }
 

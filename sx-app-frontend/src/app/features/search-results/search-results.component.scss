@@ -1,0 +1,16 @@
+:host {
+    .grid-card {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 1rem;
+    }
+    .no-member {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .item {
+        display: flex;
+        justify-content: space-between;
+    }
+}
