@@ -2,6 +2,10 @@
 - git clone https://github.com/helios1989/sx-application
 
 steps to run localy
+## PRE-REQUISITE
+ - install first nodejs atleast 12+ above
+ - install angular
+
 ### FRONTEND
 - cd sx-app-frontend
 - npm install
@@ -20,6 +24,9 @@ steps to run localy
 - http://localhost:3000/docs/*
 
 # TO run via docker
+## PRE-REQUISITE
+ - install docker
+
 in terminal under sx-application directory
 ### grab the images:
 - ./grab-images.sh
@@ -30,4 +37,5 @@ in terminal under sx-application directory
 
 - docker-compose up
 
+-Note: this docker is build in MACOS M1 os
 
