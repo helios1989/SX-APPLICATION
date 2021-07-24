@@ -40,14 +40,14 @@ in terminal under sx-application directory
 -Note: this docker is build in MACOS M1 os
 
 
-Functionality:
-Navigation
-Clicking Menu icon shows menu
-Menu items navigate to Member Search and Search Results
+### Functionality:
+ - Navigation
+ - Clicking Menu icon shows menu
+ - Menu items navigate to Member Search and Search Results
 Form
-Service Date and Policy Number is a required field
-Policy Number should be a number
-Navigation to Search Results page after click submit
+ - Service Date and Policy Number is a required field
+ - Policy Number should be a number
+ - Navigation to Search Results page after click submit
 
 ---
 
