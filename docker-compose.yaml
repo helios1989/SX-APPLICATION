@@ -10,7 +10,7 @@ services:
     ports:
         - "4200:80"
     image:
-        sx-app:latest
+        sx-app-frontend:latest
 
   sx-app-server:
     hostname: sx-app-server
