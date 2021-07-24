@@ -3,8 +3,8 @@
 
 steps to run localy
 ## PRE-REQUISITE
- - install nodejs atleast 12+ above
- - install angular
+ - should have  nodejs  12+ above installed
+ - should have  angular installed
 
 ### FRONTEND
 - cd sx-app-frontend
@@ -19,13 +19,12 @@ steps to run localy
 - api base url: localhost:3000
 
 
-
 ### api localdocumenataion documentation;
 - http://localhost:3000/docs/*
 
 # TO run via docker
 ## PRE-REQUISITE
- - install docker
+ - should have docker installed
 
 in terminal under sx-application directory
 ### grab the images:
