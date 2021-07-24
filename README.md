@@ -19,5 +19,8 @@ steps to run localy
 ### api localdocumenataion documentation;
 - http://localhost:3000/docs/*
 
+# TO run via docker
+in terminal under sx-application directory
+docker-compose up
 
 
