@@ -1,8 +1,13 @@
+### WEB APP URL:
+- frontend: https://sx-app-frontend.azurewebsites.net/
+- backend:  https://verge-sx-app-api-service.azurewebsites.net
+- swagger api documentation : https://verge-sx-app-api-service.azurewebsites.net/docs/*
+
 
 # HOW TO RUN THE APP
 - git clone https://github.com/helios1989/sx-application
 
-steps to run localy
+steps to run locally
 ## PRE-REQUISITE
  - should have  nodejs  12+ above installed
  - should have  angular installed
@@ -21,7 +26,6 @@ steps to run localy
 
 - api base url: localhost:3000
 
-
 ### api localdocumenataion documentation;
 - http://localhost:3000/docs/*
 
@@ -38,14 +42,9 @@ in terminal under sx-application directory
 
 - docker-compose up
 
-
 - Note: this docker is build in MACOS M1 os
 - if in case the docker image was not downloaded you can also manually pull it using ./grab-image.sh
 
-### WEB APP URL:
-- frontend: https://sx-app-frontend.azurewebsites.net/
-- backend:  https://verge-sx-app-api-service.azurewebsites.net
-- swagger api documentation : https://verge-sx-app-api-service.azurewebsites.net/docs/*
 
 ### Functionality:
  - Navigation
