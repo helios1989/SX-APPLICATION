@@ -45,6 +45,7 @@ in terminal under sx-application directory
 ### WEB APP URL:
 - frontend: https://sx-app-frontend.azurewebsites.net/
 - backend:  https://verge-sx-app-api-service.azurewebsites.net
+- swagger api documentation : https://verge-sx-app-api-service.azurewebsites.net/docs/*
 
 ### Functionality:
  - Navigation
