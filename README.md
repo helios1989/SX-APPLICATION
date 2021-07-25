@@ -34,13 +34,13 @@ steps to run locally
  - should have docker installed
 
 in terminal under sx-application directory
-
+- docker-compose up
 
 ### Docker Images
-- https://hub.docker.com/repository/docker/vergelbarit/sx-app-server
-- https://hub.docker.com/repository/docker/vergelbarit/sx-app-frontend
+- https://hub.docker.com/u/vergelbarit
+- https://hub.docker.com/r/vergelbarit/sx-app-frontend 
+- https://hub.docker.com/r/vergelbarit/sx-app-server
 
-- docker-compose up
 
 - Note: this docker is build in MACOS M1 os
 - if in case the docker image was not downloaded you can also manually pull it using ./grab-image.sh
