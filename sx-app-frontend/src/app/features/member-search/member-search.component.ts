@@ -58,7 +58,7 @@ export class MemberSearchComponent implements OnInit {
   
     if(!this.appForm.valid) return;
   
-    let searchUrl = environment.apiUrl;
+    let searchUrl = `${environment.apiUrl}members`;
   
     const {policyNumber, memberCardNumber} = this.appForm.value;
     if (this.appForm.value?.policyNumber) {

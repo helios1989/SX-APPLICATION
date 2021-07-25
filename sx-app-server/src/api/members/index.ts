@@ -1,3 +1,4 @@
+import { parse } from "dotenv";
 import { Request, Response, Router } from "express";
 import * as path from 'path';
 import { getConnection } from '../../helper/dbConnection';
@@ -104,16 +105,15 @@ export class MemberRouter {
             if (policyNumber || memberCardNumber) {
                 data = member.filter((d: any) => {
                     if (policyNumber && memberCardNumber) {
-                    return d.policyNumber === policyNumber && d.memberCardNumber === memberCardNumber
+                        return d.policyNumber === policyNumber && parseInt(d.memberCardNumber) === parseInt(<string>memberCardNumber)
                     }
                     if (policyNumber && !memberCardNumber) {
-                        return d.policyNumber == policyNumber 
+                         return parseInt(d.policyNumber) === parseInt(<string>policyNumber);
                     }
                 });
             } else {
                 data = member;
             }
-            console.log(data);
             res.status(200).send(data || []);
         });
     }

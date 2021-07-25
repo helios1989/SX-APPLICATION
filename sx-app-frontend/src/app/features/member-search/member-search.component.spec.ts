@@ -35,7 +35,7 @@ const mockMembers: Array<Member> = [
     "lastName": "Janc",
     "memberCardNumber": 473128446,
     "policyNumber": 1405677686,
-    "dataOfBirth": "26/07/1995"
+    "dateOfBirth": "26/07/1995"
   },
   {
     "id": 2,
@@ -43,7 +43,7 @@ const mockMembers: Array<Member> = [
     "lastName": "Aslie",
     "memberCardNumber": 8047727435,
     "policyNumber": 6494400124,
-    "dataOfBirth": "04/09/2012"
+    "dateOfBirth": "04/09/2012"
   },
 ];
 describe('MemberSearchComponent', () => {
@@ -107,7 +107,7 @@ describe('MemberSearchComponent', () => {
     if (component.appForm.valid) {
       let searchClick = fixture.debugElement.nativeElement.querySelector("#search");
       searchClick.click();
-      let req = httpTestingController.expectOne(`${environment.apiUrl}?policyNumber=12`);
+      let req = httpTestingController.expectOne(`${environment.apiUrl}members?policyNumber=12`);
       expect(req.request.method).toEqual('GET');
       req.flush(mockMembers);
     }

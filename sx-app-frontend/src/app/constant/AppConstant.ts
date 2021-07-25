@@ -1,4 +1,4 @@
 export const AppConstant = {
-    searchUrl: 'https://rcvp3-api.azurewebsites.net/members',
-    localSearchUrl: 'http://localhost:3000/api/members'
+    searchUrl: 'https://verge-sx-app-api-service.azurewebsites.net/api/',
+    localSearchUrl: 'http://localhost:3000/api/'
 }

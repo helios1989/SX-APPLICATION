@@ -1,3 +1,4 @@
+
 # HOW TO RUN THE APP
 - git clone https://github.com/helios1989/sx-application
 
@@ -10,6 +11,8 @@ steps to run localy
 - cd sx-app-frontend
 - npm install
 - ng serve
+### TO RUN UNIT TEST
+ - ng test or npm run test
 
 ### BACKEND
 - cd sx-app-server
@@ -27,8 +30,7 @@ steps to run localy
  - should have docker installed
 
 in terminal under sx-application directory
-### grab the images:
-- ./grab-images.sh
+
 
 ### Docker Images
 - https://hub.docker.com/repository/docker/vergelbarit/sx-app-server
@@ -36,8 +38,13 @@ in terminal under sx-application directory
 
 - docker-compose up
 
--Note: this docker is build in MACOS M1 os
 
+- Note: this docker is build in MACOS M1 os
+- if in case the docker image was not downloaded you can also manually pull it using ./grab-image.sh
+
+### WEB APP URL:
+- frontend: https://sx-app-frontend.azurewebsites.net/
+- backend:  https://verge-sx-app-api-service.azurewebsites.net
 
 ### Functionality:
  - Navigation

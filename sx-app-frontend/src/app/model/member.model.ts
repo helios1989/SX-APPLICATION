@@ -4,6 +4,6 @@ export class Member {
     lastName!: string;
     memberCardNumber?: Number;
     policyNumber!: Number;
-    dataOfBirth!: string;
+    dateOfBirth!: string;
     constructor() { }
   }
