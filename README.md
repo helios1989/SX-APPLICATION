@@ -3,6 +3,8 @@
 - backend:  https://verge-sx-app-api-service.azurewebsites.net
 - swagger api documentation : https://verge-sx-app-api-service.azurewebsites.net/docs/*
 
+Note: app might load slow as this is only free appService withonly 1GB memory
+
 
 # HOW TO RUN THE APP
 - git clone https://github.com/helios1989/sx-application
